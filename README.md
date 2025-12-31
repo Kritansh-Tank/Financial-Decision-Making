@@ -39,7 +39,7 @@ A comprehensive AI-powered financial analysis system that leverages multiple spe
 - **Expertise**: Portfolio management, strategic decision making
 - **Focus**: Buy/Hold/Sell recommendations with actionable insights
 
-## 📋 Prerequisites
+## Prerequisites
 
 ### Required APIs
 - **OpenAI API**: For AI agent capabilities
@@ -133,3 +133,4 @@ The system provides detailed reports for each analysis phase:
 - Clear Buy/Hold/Sell recommendation
 - Detailed reasoning and supporting data
 - Next steps and portfolio adjustment suggestions
+
