@@ -2,7 +2,7 @@
 
 A comprehensive AI-powered financial analysis system that leverages multiple specialized agents to provide intelligent stock investment recommendations. This system uses CrewAI to orchestrate a team of AI agents that analyze various aspects of stock investments to help users make informed financial decisions.
 
-## 🚀 Features
+## Features
 
 - **Multi-Agent Analysis**: Utilizes 5 specialized AI agents for comprehensive stock analysis
 - **Real-time Market Data**: Analyzes live market data and current stock performance
@@ -12,7 +12,7 @@ A comprehensive AI-powered financial analysis system that leverages multiple spe
 - **Personalized Recommendations**: Tailored advice based on risk tolerance and investment capital
 - **Interactive Interface**: User-friendly input system for personalized analysis
 
-## 🤖 AI Agents
+## AI Agents
 
 ### 1. Stock Performance Analyst
 - **Role**: Analyzes live market data and predicts future performance
@@ -52,7 +52,7 @@ pip install crewai-tools
 pip install warnings
 ```
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. API Configuration
 Before running the system, you'll need to obtain API keys:
@@ -80,7 +80,7 @@ The system will prompt you to configure your API keys in the notebook environmen
 4. Configure your API keys
 5. Run the notebook cells sequentially
 
-## 🎯 How to Use
+## How to Use
 
 ### Step 1: Input Your Investment Parameters
 The system will prompt you for:
@@ -105,7 +105,7 @@ Receive a comprehensive report including:
 - **Sentiment Analysis**: Market perception and sentiment trends
 - **Final Recommendation**: Clear Buy/Hold/Sell decision with reasoning
 
-## 📊 Sample Output
+## Output
 
 The system provides detailed reports for each analysis phase:
 
@@ -133,42 +133,3 @@ The system provides detailed reports for each analysis phase:
 - Clear Buy/Hold/Sell recommendation
 - Detailed reasoning and supporting data
 - Next steps and portfolio adjustment suggestions
-
-## ⚠️ Important Disclaimers
-
-- **Not Financial Advice**: This system is for educational and informational purposes only
-- **Do Your Research**: Always conduct additional research before making investment decisions
-- **Market Risks**: All investments carry risk, and past performance doesn't guarantee future results
-- **API Costs**: Using OpenAI and Serper APIs may incur costs based on usage
-- **Data Accuracy**: Ensure your API keys have access to current market data
-
-## 🔒 Security Notes
-
-- Keep your API keys secure and never share them publicly
-- Consider using environment variables or secure vaults for API key storage
-- Regularly rotate your API keys for security
-- Monitor your API usage to avoid unexpected costs
-
-## 🛠️ Customization
-
-### Adding New Agents
-You can extend the system by:
-- Creating additional specialized agents
-- Modifying existing agent roles and capabilities
-- Adding new analysis tools and data sources
-
-### Modifying Analysis Parameters
-- Adjust risk assessment criteria
-- Customize sentiment analysis sources
-- Modify compliance check parameters
-- Add new technical indicators
-
-## 📈 Future Enhancements
-
-Potential improvements and features:
-- Real-time portfolio tracking
-- Multiple stock comparison analysis
-- Historical performance backtesting
-- Integration with brokerage APIs
-- Advanced visualization and reporting
-- Mobile app integration
